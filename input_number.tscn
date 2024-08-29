@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://hgcortslfy7d"]
+
+[ext_resource type="Script" path="res://input_number.gd" id="1_2p2te"]
+
+[node name="input_number" type="VBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2p2te")
+
+[node name="spn_value" type="SpinBox" parent="."]
+layout_mode = 2
+
+[node name="sld_value" type="HSlider" parent="."]
+layout_mode = 2
